@@ -1,0 +1,181 @@
+/****BASE STYLES****/
+body{
+  margin: 0 auto;
+  background-color:#141224;
+}
+.full-width{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.half-width{
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  max-width: 550px;
+}
+.full-width h3{
+  text-align: center;
+}
+.full-width::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+/****NAV****/
+nav{
+  color:white;
+  background-color:#141224;
+  padding:10px 0;
+  position: sticky;
+  top: 0;
+}
+nav #title-of-page{
+  margin-left: 0px;
+  width: 250px;
+}
+nav #nav-left-width{
+  width: 300px;
+  width: 30%;
+}
+nav h1{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 30px;
+}
+nav ul{
+  list-style-type: none;
+  font-size: 20px;
+  text-align: right;
+}
+nav li{
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  padding: 20px 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+/****HEADER****/
+header{
+  background-image: url(../img/gradient-laptop.jpg);
+  background-size:  1900px 700px;
+  background-color: #141224;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0 auto;
+  background-position: center;
+}
+header h2{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 105px;
+  left: 10px;
+}
+header h2 span{
+  color:#ff00d6;
+}
+/****PORTFOLIO****/
+#portfolio{
+    background-color:#141224;
+    padding: 0 0 60px 10px;
+}
+#portfolio img{
+  max-width: 500px;
+  width: 100%;
+}
+#portfolio .half-width{
+    padding-bottom: 60px;
+  display: inline-grid;
+}
+#text-left{
+  text-align: left;
+
+}
+#portfolio a{
+  color: white;
+  font-weight:bold;
+}
+#img-right{
+
+}
+#portfolio h3{
+  font-family: 'Roboto', sans-serif;
+  color:#ff00d6;
+  padding: 30px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#portfolio h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  padding: 10px 0px;
+}
+#portfolio h2{
+  color: white;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+#portfolio p {
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 30px;
+}
+/****ABOUT****/
+#about{
+  background-image: url(../img/yellow-pencil.jpg);
+  background-size:  1980px 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding: 0 0 0 10px;
+}
+#about h3{
+  font-family: 'Roboto', sans-serif;
+  color:#000000;
+  padding: 30px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#about p{
+  font-size: 23px;
+  padding: 10px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 35px;
+}
+/****CONTACT****/
+footer{
+  background-color:#141224;
+  color: white;
+  padding-bottom: 15px;
+}
+footer p{
+  font-size: 24px;
+  text-align: center;
+}
+footer ul{
+  list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+}
+footer li{
+  display: inline-block;
+  padding: 0px 10px 20px 10px;
+}
+footer h3{
+ font-family: 'Roboto Mono', monospace;
+ color:#ff00d6;
+ padding: 30px 0px;
+ font-size: 30px;
+ font-weight: bold;
+}

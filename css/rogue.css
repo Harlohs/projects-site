@@ -1,0 +1,98 @@
+/****BASE STYLES****/
+body{
+
+}
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.half-width{
+  float: left;
+  width: 600px;
+}
+.third-width{
+  float: left;
+  width: 348px;
+  padding: 25px;
+  height: 200px;
+}
+.full-width::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+header h1 span, header a, #about h2, .third-width a, footer span {
+  color: #77a466;
+}
+header h1, header ul li a, #about h2, .third-width h3, footer h3{
+  text-transform: uppercase;
+}
+/****HEADER****/
+
+header .half-width{
+
+}
+#header-image .full-width{
+  background-image: url("../img/leafy-green.png");
+  height: 250px;
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+header ul, .third-width ul{
+  list-style-type: none;
+}
+header ul li{
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  font-weight: bold;
+}
+header a, .third-width a{
+  text-decoration: none;
+}
+/****ABOUT****/
+#about h2{
+  font-size:16px;
+  padding: 20px 0 0 0;
+}
+#about p{
+  line-height:30px;
+}
+/****KEYPOINT****/
+#keypoint .full-width{
+  border-top: 1px solid #DBDBDB;
+
+}
+#keypoint #middle-third-width{
+  border-left: 1px solid #DBDBDB;
+  border-right: 1px solid #DBDBDB;
+}
+#keypoint .third-width{
+  border-bottom: 1px solid #DBDBDB;
+}
+#keypoint h3{
+  font-size: 15px;
+}
+#keypoint ul{
+  list-style-position: outside;
+  padding: 0;
+}
+#keypoint ul li{
+  line-height: 35px;
+
+}
+#keypoint p{
+  line-height: 28px;
+}
+
+/****FOOTER****/
+footer h3{
+  text-align: center;
+}
+footer span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-transform: none;
+
+}
